@@ -1,11 +1,23 @@
 import { refs } from "./refs";
 
-function changesResolWidthInput(value) {
-	refs.resolWidthInput.value = value;
+function changesResolutionWidthInput(value) {
+	refs.resolutionWidthInput.value = value;
 }
 
-function changesResolHeightInput(value) {
-	refs.resolHeightInput.value = value;
+function changesResolutionHeightInput(value) {
+	refs.resolutionHeightInput.value = value;
 }
 
-export { changesResolWidthInput, changesResolHeightInput };
+function changeRatioWidthInput(value) {
+	refs.ratioWidthInput.value = value;
+}
+
+function changeRatioHeightInput(value) {
+	refs.ratioHeightInput.value = value;
+}
+
+function changeCoeffInput(value) {
+	refs.coeffInput.value = value;
+}
+
+export { changesResolutionWidthInput, changesResolutionHeightInput, changeRatioWidthInput, changeRatioHeightInput, changeCoeffInput };
