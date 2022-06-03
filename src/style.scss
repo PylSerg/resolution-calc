@@ -27,6 +27,14 @@ h1 {
 	align-items: center;
 }
 
+.footnote {
+	margin-top: 20px;
+}
+
+.footnote__link {
+	color: #4b4deb;
+}
+
 @import "./scss/common";
 @import "./scss/resolution";
 @import "./scss/ratio";
