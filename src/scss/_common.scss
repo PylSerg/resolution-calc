@@ -1,0 +1,83 @@
+.resolution,
+.ratio,
+.coefficient {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	height: 200px;
+
+	padding: 30px;
+	margin: 10px;
+
+	border: 1px solid #ccc;
+	border-radius: 25px;
+}
+
+.resolution__title,
+.ratio__title,
+.coefficient__title {
+	font-size: 36px;
+	text-align: center;
+
+	width: 100%;
+
+	padding: 0;
+	margin: 0;
+	margin-bottom: 30px;
+
+	border-bottom: 1px solid #ccc;
+}
+
+.resolution__width-input,
+.resolution__height-input,
+.ratio__width-input,
+.ratio__height-input,
+.coefficient__input {
+	color: #ccc;
+	font-size: 24px;
+	text-align: center;
+
+	width: 100px;
+
+	padding: 10px;
+	margin-bottom: 10px;
+
+	background-color: #2f2f3f;
+	border-radius: 10px;
+
+	border: none;
+}
+
+.resolution__width-button,
+.resolution__height-button,
+.resolution__wh-button,
+.ratio__button,
+.coefficient__button {
+	color: #ccc;
+	font-size: 18px;
+
+	width: 100%;
+
+	padding: 5px;
+
+	background-color: #1c1c2c;
+	border: 2px solid #2c2c3c;
+	border-radius: 10px;
+
+	cursor: pointer;
+}
+
+.resolution__width-button:hover,
+.resolution__width-button:focus,
+.resolution__height-button:hover,
+.resolution__height-button:focus,
+.resolution__wh-button:hover,
+.resolution__wh-button:focus,
+.ratio__button:hover,
+.ratio__button:focus,
+.coefficient__button:hover,
+.coefficient__button:focus {
+	background-color: #1b0741;
+	border: 2px solid #1b0741;
+}

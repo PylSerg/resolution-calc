@@ -1,0 +1,33 @@
+body {
+	background-color: #1c1c1c;
+	color: #ccc;
+}
+
+h1 {
+	text-align: center;
+	font-size: 40px;
+}
+
+.main-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	@media screen and (min-width: 980px) {
+		height: 90vh;
+	}
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+@import "./scss/common";
+@import "./scss/resolution";
+@import "./scss/ratio";
+@import "./scss/coefficient";

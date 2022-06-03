@@ -1,0 +1,32 @@
+.resolution__container {
+	display: flex;
+	flex-direction: row;
+}
+
+.resolution__width-container,
+.resolution__x-container,
+.resolution__height-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.resolution__x {
+	display: flex;
+	align-items: end;
+
+	font-size: 20px;
+	font-family: Arial;
+
+	height: 50%;
+
+	padding: 0 10px;
+	padding-bottom: 10px;
+}
+
+.resolution__empty {
+	height: 50%;
+}
+
+.resolution__wh-button {
+	margin-top: 10px;
+}
